@@ -8,8 +8,8 @@ Start here! Predict survival on the Titanic and get familiar with Machine Learni
 
 ## Steps
 
-1. perform *n*-fold crossvalidation on the training data under three-way split to select the best prediction model
-2. report the averaeg accuracy of cross-validation (training, validation, testing in *n*-fold crossvalidation), i.e., hw4
+1. perform *n*-fold cross-validation on the training data under three-way split to select the best prediction model
+2. report the average accuracy of cross-validation (training, validation, testing in *n*-fold cross-validation), i.e., hw4
 3. then apply the selected model on the test data
 4. output prediction result
 
@@ -31,7 +31,10 @@ Rscript hw5_9999.R --fold 5 --train Titanic_Data/train.csv --test Titanic_Data/t
 ...
 Rscript hw5_9999.R --fold 10 --train Titanic_Data/train.csv --test Titanic_Data/test.csv --report performance6.csv --predict predict.csv
 ```
-Each testing parameters get 15 points
+Each testing parameters get 15 points.
+**Please do not set input/output in your local path or URL.** 
+Otherwise, your code will fail due to fixed path problem.
+
 Penalty: without training, calibration, testing answer (-5 points of each answer)
 
 ## Bonus
